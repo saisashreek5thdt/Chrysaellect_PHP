@@ -1,70 +1,11 @@
-###################
-What is CodeIgniter
-###################
+Chrysaellect
+Chrysaellect is an organization that offers innovative, effective and research based products and services that promote authentic learning opportunities relevant for 21st century learners.We seek to make an impact in the early childhood education landscape by providing authentic and unique curriculums, content for digitization, teacher development programmes, school set-up and franchising solutions. We collaborate with teachers, parents and edu-preneurs to ensure that children across geographic, socio and economic backgrounds find learning engaging, meaningful and fun.
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Founder - Faridah
+Having over two decades of experience in early childhood education Faridah, an educationist is the founder of Chrysaellect. She has studied in Canada, Pakistan as well as in India and is qualified as an ‘International Teacher Educator’ which equips her to provide professional development to teachers, trainers and principals. She holds two post graduation diplomas one in Early Childhood Education from New Zealand Tertiary College as well one in Education Management from SNDT University Mumbai. Faridah also has a Certification in ‘Using Multiple Intelligences as a Tool to Help Students Learn’ From Harvard Graduate School of Education- USA . She has been on the National Board of ITREB India heading the Preschool department for seven years. She is also the Territory Head of the Early Childhood Association India.
 
-*******************
-Release Information
-*******************
+Vision
+To transform and empower the preschool education sector worldwide and impact the quality of education children receive.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Mission
+To create a new benchmark in preschool curriculum and make available the best practices and contemporary research in preschool education to all stake holders.

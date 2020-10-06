@@ -53,3 +53,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+//Static Pages Controller
+$route['founder_controller'] = 'founder';
+$route['aboutus_controller'] = 'aboutus';
+$route['contact_controller'] = 'contact';
+$route['gallery_controller'] = 'gallery';
+
+//Curriculum Controller
+$route['curriculum_controller'] = 'curriculum';
+$route['overview_controller'] = 'overview';
+$route['activities_controller'] = 'activities';
+$route['faq_controller'] = 'faq';
+
+//Solution Controller
+$route['solutions_controller'] = 'solutions';

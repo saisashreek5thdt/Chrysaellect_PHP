@@ -27,25 +27,7 @@
             </div>
          </div>
       </div>
-      <div style="height:130px;position:fixed;z-index:999;left:0;top:75%;margin-top:-65px;width:40px">
-         <ul>
-            <li>
-               <a href="https://api.whatsapp.com/send?phone=+919820013694&text=Hi">
-               <img class="oc1" src="assets/images/fake.png" alt="Whatsapp" data-src="assets/images/whatsapp.png" style="width:100px;height:auto;" />
-               </a>
-            </li>
-            <li>
-               <a href="tel:9820013694">
-               <img class="oc1" src="assets/images/fake.png" alt="call us" data-src="assets/images/callus.png" style="width:100px;height:auto;" />
-               </a>
-            </li>
-            <li>
-               <a href="mailto:faridah@chrysaellect.com" target="_blank">
-               <img class="oc1" src="assets/images/fake.png" data-src="assets/images/email.png" alt="email us" style="width:100px;height:auto;" />
-               </a>
-            </li>
-         </ul>
-      </div>
+	  <div style="margin-top:2%"></div>
       <!-- Services Box-->
       <section class="section bg-gray-2 section-lg">
          <div class="container">
@@ -109,7 +91,6 @@
             </div>
          </div>
       </section>
-      <div style="margin-top:2%"></div>
       <!-- About Us-->
       <section class="section bg-default section-lg">
          <div class="container">
@@ -123,7 +104,7 @@
                      <p>
                         Chrysaellect is an organization that offers innovative, effective and research based products and services that promote authentic learning opportunities relevant for 21st century learners
                      </p>
-                     <a class="button button-primary" href="#">Read more</a>
+                     <a class="button button-primary" href="<?php echo base_url(); ?>aboutus">Read more</a>
                   </div>
                </div>
                <div class="col-md-6">
@@ -148,7 +129,7 @@
                      </ul>
                      <p>
                         Having over two decades of experience in early childhood education Faridah, an educationist is... 
-                        <a class="" href="#">Read more</a>
+                        <a class="" href="<?php echo base_url(); ?>founder">Read more</a>
                      </p>
                   </div>
                </div>
@@ -519,63 +500,6 @@
                         </div>
                      </form>
                   </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Footer Modern-->
-      <section class="section section-sm bg-default">
-         <hr />
-         <div class="container">
-            <div class="row align-items-end row-30">
-               <div class="col-lg-4">
-                  <div class="block-brand-modern">
-                     <div class="block-brand-modern-item">
-                        <a href="index.html">
-                        <img class="oc1" src="<?php base_url(); ?>assets/images/fake.png" data-src="<?php base_url(); ?>assets/images/logo/logo.png" alt="Chrysaellect" style="width:67%;height:auto" />
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-8">
-                  <ul class="list-address">
-                     <li>
-                        <dl>
-                           <dt><span class="heading-5">E-mail</span></dt>
-                           <dd>
-                              <a href="mailto:faridah@chrysaellect.com">faridah@chrysaellect.com</a>
-                              <br />
-                              <!--<a href="mailto:amrita@chrysaellect.com">amrita@chrysaellect.com</a>-->
-                           </dd>
-                        </dl>
-                     </li>
-                     <li>
-                        <dl>
-                           <dt><span class="heading-5">Phone</span></dt>
-                           <dd>
-                              <!-- <a href="#">Amrita: 9819405956 </a>-->
-                              <a href="#">Faridah: 9820013694</a>
-                           </dd>
-                        </dl>
-                     </li>
-                     <li>
-                        <dl>
-                           <dt><span class="heading-5">Connect With us</span></dt>
-                           <dd>
-                              <a class="icon-square-classic fa-whatsapp" style="width:25%;height:auto" href="https://api.whatsapp.com/send?phone=+919820013694&text=Hi"></a>
-                              <a class="icon-square-classic fa-facebook" style="width:25%;height:auto" href="https://www.facebook.com/chrysaellecteducation/" target="_blank"></a>
-                              <a class="icon-square-classic fa-linkedin" style="width:25%;height:auto" href="https://www.linkedin.com/in/faridah-bawani-62340451/" target="_blank"></a>
-                              <a class="icon-square-classic fa-youtube" style="width:25%;height:auto" href="https://www.youtube.com/channel/UCqBaQjPPFGzjQ4MluDu5Yvw" target="_blank"></a>
-                           </dd>
-                        </dl>
-                     </li>
-                     <li>
-                        <dl>
-                           <dt><span class="heading-5">Address</span></dt>
-                           <dd><a href="#">305 Dharti Apts, J.P. road, Andheri(W) <br/>Mumbai 400061</a></dd>
-                        </dl>
-                     </li>
-                  </ul>
                </div>
             </div>
          </div>

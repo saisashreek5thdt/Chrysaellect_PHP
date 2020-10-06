@@ -28,6 +28,7 @@
       <link rel="stylesheet" href="<?php base_url(); ?>assets/css/bootstrap.css">
       <link rel="stylesheet" href="<?php base_url(); ?>assets/css/fonts.css">
       <link rel="stylesheet" href="<?php base_url(); ?>assets/css/style.css">
+	  <link rel="stylesheet" href="<?php base_url(); ?>assets/css/baguetteBox.min.css">
       <style>
          .ie-panel {
 			 display: none;
@@ -41,6 +42,14 @@
          }
          html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {
          	display: block;
+         }
+		 .lightbox img {
+			 width: 100%;
+			 margin-bottom: 30px;
+			 transition: .2s ease-in-out;
+			 box-shadow: 0 2px 3px rgba(0,0,0,.2);
+			 max-height: 198px;
+			 object-fit: cover;
          }
       </style>
       <link rel="stylesheet" href="<?php base_url(); ?>assets/css/materialdesignicons.min.css">
@@ -56,7 +65,7 @@
          <div class="preloader-body">
             <div class="cssload-container">
             </div>
-            <p><img src="assets/images/loading.gif"  alt="Preschool curriculum consultants"></p>
+            <p><img src="<?php base_url(); ?>assets/images/loading.gif"  alt="Preschool curriculum consultants"></p>
          </div>
       </div>
       <div class="page"> 
@@ -86,14 +95,14 @@
                         <div class="rd-navbar-nav-wrap">
                            <!-- RD Navbar Nav-->
                            <ul class="rd-navbar-nav">
-                              <li class="rd-nav-item active">
-                                 <a class="rd-nav-link" href="<?php base_url(); ?>">Home</a>
+                              <li class="rd-nav-item">
+                                 <a class="rd-nav-link" href="<?php echo base_url(); ?>">Home</a>
                               </li>
                               <li class="rd-nav-item">
                                  <a class="rd-nav-link" href="#">M.E.E.T</a>
                               </li>
                               <li class="rd-nav-item">
-                                 <a class="rd-nav-link" href="#">Founder's Desk</a>
+                                 <a class="rd-nav-link" href="<?php echo base_url(); ?>founder">Founder's Desk</a>
                               </li>
                               <li class="rd-nav-item">
                                  <a class="rd-nav-link" href="#">
@@ -102,22 +111,22 @@
                                  <!-- RD Navbar Dropdown-->
                                  <ul class="rd-menu rd-navbar-dropdown">
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Philosophy</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>curriculum">Philosophy</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Chrysaellect- Not a Franchise</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>curriculum">Chrysaellect- Not a Franchise</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Chrysaellect Advantage</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>curriculum">Chrysaellect Advantage</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Overview</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>overview">Overview</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Sample Activities</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>activities">Sample Activities</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">FAQs</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>faq">FAQs</a>
                                     </li>
                                  </ul>
                               </li>
@@ -128,21 +137,21 @@
                                  <!-- RD Navbar Dropdown-->
                                  <ul class="rd-menu rd-navbar-dropdown">
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">New Pre- schools</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>solutions">New Pre- schools</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">Exisiting Pre- schools</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>solutions">Exisiting Pre- schools</a>
                                     </li>
                                     <li class="rd-dropdown-item">
-                                       <a class="rd-dropdown-link" href="#">K-12 Schools</a>
+                                       <a class="rd-dropdown-link" href="<?php echo base_url(); ?>solutions">K-12 Schools</a>
                                     </li>
                                  </ul>
                               </li>
                               <li class="rd-nav-item">
-                                 <a class="rd-nav-link" href="#">Gallery</a>
+                                 <a class="rd-nav-link" href="<?php echo base_url(); ?>gallery">Gallery</a>
                               </li>
                               <li class="rd-nav-item">
-                                 <a class="rd-nav-link" href="#">Contact Us</a>
+                                 <a class="rd-nav-link" href="<?php echo base_url(); ?>contact">Contact Us</a>
                               </li>
                            </ul>
                         </div>
@@ -152,4 +161,4 @@
                </div>
             </nav>
          </div>
-      </header>
+	</header>
