@@ -5,7 +5,7 @@
 	   </h1>
 	   <h2 class="breadcrumbs-custom-title">Contact Us</h2>
 	   <ul class="breadcrumbs-custom-path">
-		  <li><a href="<?php base_url(); ?>">Home</a></li>
+		  <li><a href="<?php echo base_url(); ?>">Home</a></li>
 		  <li class="active">Contact Us</li>
 	   </ul>
 	</div>
