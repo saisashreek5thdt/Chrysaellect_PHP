@@ -6,7 +6,7 @@
                <div class="col-lg-4">
                   <div class="block-brand-modern">
                      <div class="block-brand-modern-item">
-                        <a href="index.html">
+                        <a href="<?php echo base_url(); ?>">
                         <img class="oc1" src="<?php base_url(); ?>assets/images/fake.png" data-src="<?php base_url(); ?>assets/images/logo/logo.png" alt="Chrysaellect" style="width:67%;height:auto" />
                         </a>
                      </div>

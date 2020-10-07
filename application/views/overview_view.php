@@ -5,7 +5,7 @@
 	   </h1>
 	   <h2 class="breadcrumbs-custom-title">Curriculum</h2>
 	   <ul class="breadcrumbs-custom-path">
-		  <li><a href="index.html">Home</a></li>
+		  <li><a href="<?php echo base_url(); ?>">Home</a></li>
 		  <li class="active">Curriculum</li>
 	   </ul>
 	</div>
